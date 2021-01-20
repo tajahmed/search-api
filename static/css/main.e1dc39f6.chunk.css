@@ -1,2 +1,0 @@
-input{font-family:"Times New Roman",Times,serif;font-style:italic;align-items:center;margin-left:15em;background-color:transparent;font-weight:700;color:#000}#gradient{z-index:-1;position:fixed;top:0;bottom:0;width:100vw;height:100vh;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab,#6df543,pink);background-size:400% 400%;animation:Gradient 15s ease infinite}@keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
-/*# sourceMappingURL=main.e1dc39f6.chunk.css.map */
