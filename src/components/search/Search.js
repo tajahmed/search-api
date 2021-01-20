@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import ImageResults from "../imageResults/imageResults";
-import { black } from 'material-ui/styles/colors';
+
 class Search extends Component{
     state={
         searchText:'',
@@ -33,19 +33,8 @@ class Search extends Component{
         return(
             <div>
             <input type="text" 
-            style=
-            {{
-            marginTop:100,
-            paddingTop:20,
-            paddingLeft:70,
-            fontSize:30,
-            borderTopStyle:"hidden",
-            borderRightStyle:"hidden",
-            borderLeftStyle:"hidden",
-            outline:"none",
-            borderBottomStyle:"groove",        
-        }}
-        placeholder="Search  for  images"
+
+        placeholder="Search images"
         name="searchText"
         value={this.state.searchText}
         onChange={this.onTextChange}
